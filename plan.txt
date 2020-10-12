@@ -1,0 +1,27 @@
+
+Research goals
+ 
+- Develop a framework for evaluating error in approximate arithmetic circuits
+- Creating a software implementation first
+- Developing a hardware version using HLS
+- How do you generate random numbers
+- How do you calculate statistics
+- How do you export statistics from the FPGA back to software
+  ? Optimisation
+ 
+- Using the framework
+  - Replicating results from other peoples approximate arithmetic Research
+  - Getting new results about other peoples airthmetic Research
+  - Trying to investigate the statistical behaviour of errors for large nos of cycles
+
+Getting started:
+   - Building a software version: to make sure the problem is understood.
+   - Replicate what I did for sampling.
+   - Get it working with dumb approx functions.
+ - Finding simple approximate arithmetic circuits from the literature
+   - Quick read of the survey paper
+   - Follow refferences to approximate adder ann/or multiple
+   - Build a software fuNction that implemenns apporox aoperatoe
+ - Work out what FPGA and FPGA tools you'll use
+   - Vivado HLS
+   - Zedboard
